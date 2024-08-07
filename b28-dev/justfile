@@ -1,0 +1,7 @@
+watch:
+    cargo leptos watch -- --port 4321
+build:
+    cargo leptos build --release
+
+start:
+    cd target && ./release/b28-dev
